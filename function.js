@@ -1,12 +1,13 @@
 const button = document.getElementById("button");
 const fname = document.getElementById("fname");
 const email = document.getElementById("email")
+const password = document.getElementById("password")
 
 button.onclick = () => {
-    if (fname != null && validateEmail(email) === true) {
-      alert('All credentials are correct!');
+    if (fname.value.length > 0 && email.value.length > 0 && password.value.length) {
+      alert('Thank you for filling in the form!');
     } else { 
-      alert('Credentials are not correct');
+      alert('Some fields are empty');
     }
   }
 
