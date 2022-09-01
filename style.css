@@ -131,9 +131,10 @@ input {
   margin-top: 34px;
 }
 
-img {
+.createAccount > img {
     width: 600px;
     height: 62px;
+    margin-top: 30px;
 }
 
 
